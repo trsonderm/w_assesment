@@ -20,7 +20,7 @@ Keeping to a simple approach the algorithms used were a decision tree and knn. A
 
 The prediction success is acceptable with Decision Tree at 76% accuracy for the task and Knn at 74%. The most amount of time was spent on preprocessing the dataset to get it formatted into three numerical columns which categorically converted to index numbers. Once the new file of the simplified and converted dataset was created it was fed to the modelling notebook. 
 
-##Data Files:
+## Data Files:
 
 /data/emails.csv[removed from repo]
 /data/clean_emails.csv[preprocessed dataset]
@@ -29,7 +29,7 @@ The prediction success is acceptable with Decision Tree at 76% accuracy for the 
 
 /notebooks/emails_model_prediction.ipynb[model testing]
 
-##Future work:
+## Future work:
 
 Cleanup Email Tags
 
