@@ -3,11 +3,26 @@
 
 Create a prediction based on the Enron emails.csv dataset
 
-
-
 ## Authors
 
 - [@trsonderm](https://www.github.com/trsonderm)
+
+## Prediction of CC addresses based on To and From fields
+# Features
+Predictors
+X-To -> To fields from email messages
+X-From -> From address in each email message
+Target
+X-cc -> Target variable (cc addresses in email message, multiple addresses constitues a unique entry)
+
+## Files:
+
+/data/emails.csv[removed from repo] -> enron source email file 1.7gb
+/data/clean_emails.csv[preprocessed dataset] -> source file for the model
+/notebooks/email_preprocessing.ipynb[preprocessing] -> output - clean_emails.csv
+/notebooks/emails_model_prediction.ipynb[model testing]
+/reports/email_cc_preprocessing.pdf -> pdf print of output generated in corresponding notebook
+/reports/emails_model_prediction.pdf -> pdf print of output generated in corresponding notebook
 
 
 ## Lessons Learned
