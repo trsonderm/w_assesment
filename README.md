@@ -9,20 +9,20 @@ Create a prediction based on the Enron emails.csv dataset
 
 ## Prediction of CC addresses based on To and From fields
 # Features
-Predictors
-X-To -> To fields from email messages
-X-From -> From address in each email message
-Target
-X-cc -> Target variable (cc addresses in email message, multiple addresses constitues a unique entry)
+Predictors  
+X-To -> To fields from email messages  
+X-From -> From address in each email message  
+Target  
+X-cc -> Target variable (cc addresses in email message, multiple addresses constitues a unique entry)  
 
 ## Files:
 
-/data/emails.csv[removed from repo] -> enron source email file 1.7gb
-/data/clean_emails.csv[preprocessed dataset] -> source file for the model
-/notebooks/email_preprocessing.ipynb[preprocessing] -> output - clean_emails.csv
-/notebooks/emails_model_prediction.ipynb[model testing]
-/reports/email_cc_preprocessing.pdf -> pdf print of output generated in corresponding notebook
-/reports/emails_model_prediction.pdf -> pdf print of output generated in corresponding notebook
+/data/emails.csv[removed from repo] -> enron source email file 1.7gb  
+/data/clean_emails.csv[preprocessed dataset] -> source file for the model  
+/notebooks/email_preprocessing.ipynb[preprocessing] -> output - clean_emails.csv  
+/notebooks/emails_model_prediction.ipynb[model testing]  
+/reports/email_cc_preprocessing.pdf -> pdf print of output generated in corresponding notebook  
+/reports/emails_model_prediction.pdf -> pdf print of output generated in corresponding notebook  f
 
 
 ## Lessons Learned
@@ -35,14 +35,6 @@ Keeping to a simple approach the algorithms used were a decision tree and knn. A
 
 The prediction success is acceptable with Decision Tree at 76% accuracy for the task and Knn at 74%. The most amount of time was spent on preprocessing the dataset to get it formatted into three numerical columns which categorically converted to index numbers. Once the new file of the simplified and converted dataset was created it was fed to the modelling notebook. 
 
-## Data Files:
-
-/data/emails.csv[removed from repo]
-/data/clean_emails.csv[preprocessed dataset]
-/notebooks/email_preprocessing.ipynb[preprocessing]
-   output - clean_emails.csv
-
-/notebooks/emails_model_prediction.ipynb[model testing]
 
 ## Future work:
 
